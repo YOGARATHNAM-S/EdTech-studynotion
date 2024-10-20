@@ -1,21 +1,17 @@
+To remove all the images from the project description, here is the updated content without any image tags:
 
-<img src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/frontend/src/assets/Logo/Logo-Full-Light.png' />
+---
 
 # Project Description 📝
-StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. <br/>
+StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content.  
 The platform is built using the **MERN stack**, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
 
+## Live link 🌍📡  
+[https://study-notion-full-stack.vercel.app/]
 
-<h2>Live link 🌍📡 - [  https://study-notion-full-stack.vercel.app/  ]</h2>
-<hr/>
-
-
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/home1.png' />
-
-
+---
 
 ## Table of Contents
-
 
 | Section                 | Description                                  |
 |-------------------------|----------------------------------------------|
@@ -28,239 +24,210 @@ The platform is built using the **MERN stack**, which includes ReactJS, NodeJS, 
 | [React Library](#react-library-)         | ⚛️📚 Overview of React Libraries used        |
 | [Screen Preview](#screen-preview-)         | 🖥️ Screen Preview        |
 
-
-
-
-
+---
 
 ## StudyNotion Aim 📚 
-<br/>
-1️⃣ A seamless and interactive learning experience for students, making education more accessible and engaging.<br/>
-2️⃣ A platform for instructors to showcase their expertise and connect with learners across the globe.<br/>
+1️⃣ A seamless and interactive learning experience for students, making education more accessible and engaging.  
+2️⃣ A platform for instructors to showcase their expertise and connect with learners across the globe.
 
-<br/>
-<br/>
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/gif.gif' />
-
+---
 
 ## Tech Stack 💻🔧 
 
-## Frontend 🎨 : 
-<code title="React.js"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/react%20ogo.png"></code>
-<code title="Vite"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/Vitejs-logo.png"></code>
-<code title="Redux.js"><img height="35" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/redux-logo.png"></code>
-<code title="css"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/css%20logo.png"></code>
-<code title="Tailwind css"><img height="35" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/tailwind%20css%20logo.png"></code>
+### Frontend 🎨 :  
+- React.js  
+- Vite  
+- Redux.js  
+- CSS  
+- Tailwind CSS  
 
+### Backend ⚙️ :  
+- Node.js  
+- Express.js  
 
-## Backend ⚙️ :
-<code title="Nodejs"><img height="50" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/nodejs-logo.png"></code>
-<code title="Express"><img height="70" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/express%20logo.png"></code>
+### Database 🛢️ :  
+- MongoDB  
 
+### Cloudinary Integration ☁️  
+- Cloudinary for media storage
 
-## Database 🛢️ :
-<code title="Mongodb"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/mongodb%20logo.png"></code>
+---
 
-## Cloudinary Integration ☁️
-<code title="Mongodb"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/cloudinary-logo.jpg"></code>
+## System Architecture 🏰  
+The StudyNotion ed-tech platform consists of three main components:  
+- The front end
+- The back end
+- The database
 
-<hr/>
+The platform follows a client-server architecture, with the front end serving as the client and the back end and database serving as the server.
 
+---
 
+## Architecture Diagram 🏗️  
+A high-level diagram that illustrates the architecture of the StudyNotion ed-tech platform is used to depict how the components interact.
 
+---
 
-## System Architecture 🏰
-<br/>
-☝ The StudyNotion ed-tech platform consists of three main components:  <br/>
-The front end, the back end, and the database. The platform follows a client-server architecture, with the front end serving as the client and the back end and database serving as the server.
+#### Pages for Students:
+- **Homepage 🏠**  
+- **Course List 📚**  
+- **Wishlist 💡**  
+- **Cart Checkout 🛒**  
+- **Course Content 🎓**  
+- **User Details 👤**  
+- **User Edit Details ✏️**  
 
-🎨 Front-end  <br/>
-The front end of the platform is built using ReactJS, which is a popular JavaScript library for building user interfaces. ReactJS allows for the creation of dynamic and responsive user interfaces also **Loading Skeleton**, which are critical for providing an engaging learning experience to the students. The front end communicates with the back end using RESTful API calls.
+#### Pages for Instructors:
+- **Dashboard 📊**  
+- **Insights 📈**  
+- **Course Management Pages 🛠️**  
+- **View and Edit Profile Details 👀**
 
-⚙️ Back-end  <br/>
-The back end of the platform is built using NodeJS and ExpressJS, which are popular frameworks for building scalable and robust server-side applications. The back end provides APIs for the front end to consume, which include functionalities such as user authentication, course creation, and course consumption. The back end also handles the logic for processing and storing the course content and user data.
+---
 
-🛢️ Database  <br/>
-The database for the platform is built using MongoDB, which is a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data, which is useful for storing course content such as videos, images, and PDFs. The database stores the course content, user data, and other relevant information related to the platform.
+### Backend ⚙️
+Node.js and Express.js handle user authentication, course creation, media management, and payment integration. The back end connects with MongoDB for data storage and Cloudinary for managing media.
 
+---
 
+### Database Schema  
+The system uses MongoDB for flexible and scalable data storage. Models include:
+- Student Schema  
+- Instructor Schema  
+- Course Schema  
 
-## Architecture Diagram 🏗️
-<br/>
-Here is a high-level diagram that illustrates the architecture of the StudyNotion ed-tech platform:
-<img width='60%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Architecture%20Diagram.png' />
+---
 
+## React Hooks 🎣  
+- `useState`, `useEffect`, `useDispatch`, `useParams`, `useSelector`, `useLocation`, `useNavigate`, `useRef`, `useForm`, `useDropzone`, `Custom-Hook`
 
-<hr/>
-
-#### The front end of StudyNotion has all the necessary pages that an ed-tech platform should have. Some of these pages are: 
-
-For Students:
-- **Homepage 🏠:** A brief introduction to the platform with links to the course list and user details and random background.
-- **Course List 📚:** A list of all the courses available on the platform, along with their descriptions and ratings.
-- **Wishlist 💡:** Displays all the courses that a student has added to their wishlist.
-- **Cart Checkout 🛒 :** Allows the user to complete course purchases.
-- **Course Content 🎓:** Presents the course content for a particular course, including videos and related material.
-- **User Details 👤:** Provides details about the student's account, including their name, email, and other relevant information.
-- **User Edit Details ✏️:** Allows students to edit their account details.
-
-For Instructors:
-- **Dashboard 📊:** Offers an overview of the instructor's courses, along with ratings and feedback for each course.
-- **Insights 📈:** Provides detailed insights into the instructor's courses, including the number of views, clicks, and other relevant metrics.
-- **Course Management Pages 🛠️:** Enables instructors to create, update, and delete courses, as well as manage course content and pricing.
-- **View and Edit Profile Details 👀:** Allows instructors to view and edit their account details.
-
-
-
-### Back-end ⚙️
-
-The back-end of the platform is built using NodeJS and ExpressJS, providing APIs for the front-end to consume. These APIs include functionalities such as user authentication, course creation, and course consumption. The back-end also handles the logic for processing and storing the course content and user data.
-
-#### Back-end Features
-
-- **User Authentication and Authorization 🔐:** Students and instructors can sign up and log in to the platform using their email addresses and passwords. The platform also supports OTP (One-Time Password) verification and forgot password functionality for added security.
-- **Course Management 🛠️:** Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can view and rate courses.
-- **Payment Integration 💳:** Students will purchase and enroll in courses by completing the checkout flow, followed by Razorpay integration for payment handling.
-- **Cloud-based Media Management ☁️ :** StudyNotion uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
-- **Markdown Formatting ✍️:** Course content in document format is stored in Markdown format, allowing for easier display and rendering on the front-end.
-
-
-
-#### Data Models and Database Schema
-
-The back-end of StudyNotion uses several data models and database schemas to manage data, including:
-
-- **Student Schema 🧑‍🎓:** Includes fields such as name, email, password, and course details for each student.
-- **Instructor Schema 👩‍🏫:** Includes fields such as name, email, password, and course details for each instructor.
-- **Course Schema 📚:** Includes fields such as course name, description, instructor details, and media content.
-
-
-### Database 🛢️
-The database for the platform is built using MongoDB, a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data. The database stores the course content, user data, and other relevant information related to the platform.
-
-## Schema 📋
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Schema.png' />
-
-<hr/>
-
-
-## React Hooks 🎣
-
-Utilized several React hooks for efficient state management and dynamic behavior:
-
-- `useState`
-- `useEffect`
-- `useDispatch`
-- `useParams`
-- `useSelector`
-- `useLocation`
-- `useNavigate`
-- `useRef`
-- `useForm`
-- `useDropzone`
-- `Custom-Hook`
-
-<br/>
+---
 
 ## 📚 **React Library**:
+- **Lazy Loading**
+- **Chart.js**
+- **Framer Motion**
+- **React Dropzone**
+- **React Hot Toast**
+- **React OTP Input**
+- **React Super Responsive Table**
+- **Swiper**
+- **React Type Animation**
+- **Video React**
+## Screen Preview  
 
-- 🚀 **Lazy Loading**: Enhance performance by lazily loading images using the react-lazy-load-image library.
-- 📊 **Chart.js:**  Versatile charting library for creating interactive and visually appealing charts.
-- 🎭**Framer Motion:**  Animation library for React, providing smooth and expressive motion.
-- 📁 **React Dropzone:**  Drag-and-drop file uploader for React applications.
-- 🍞 **React Hot Toast:**  Elegant and customizable toast notifications for React applications.
-- 🔢 **React OTP Input:**  Input component for one-time password entry in React forms.
-- 📊 **React Super Responsive Table:**  Highly responsive and feature-rich table component for React.
-- 🔄 **Swiper:**  Modern touch slider for mobile and desktop browsers.
-- 🖋️ **React Type Animation:**  Simple and configurable typing animation component for React.
-- 🎥 **Video React:**  React-based video player for building rich multimedia experiences in web applications.
+Cosmo Cloud is a comprehensive cloud-based platform designed to offer scalable storage, hosting, and media management services for web and mobile applications. It provides a reliable infrastructure for handling files such as images, videos, documents, and other digital assets. Whether you're looking to store large datasets, host media-rich applications, or manage dynamic content, Cosmo Cloud streamlines the process with its flexible API and user-friendly interface.
+Key Features:
 
+    Cloud Storage: Securely store and retrieve files with scalable storage options, ensuring data is always accessible.
+    Media Management: Advanced image and video processing capabilities, allowing for real-time transformations, resizing, and optimization.
+    Content Delivery: Fast and efficient global content delivery network (CDN) ensures quick load times and low latency.
+    File Upload & Sharing: Seamless file uploading and sharing with robust security features, including encryption and access controls.
+    API Integration: Easy integration with a wide range of platforms through RESTful APIs, SDKs, and pre-built plugins for various programming languages.
+    Analytics: Provides detailed usage statistics and performance insights to optimize resource management.
 
+Cosmo Cloud is ideal for developers and businesses that need reliable, cloud-based solutions for file handling, media delivery, and content hosting in their applications.
+- Removed for brevity
 
-##  🖥️ Screen Preview :
+To use Cosmo Cloud in your application, you'll need to integrate it based on the services it offers, such as cloud storage, hosting, or media management. Here’s a general guide on how to use Cosmo Cloud in your MERN stack application like StudyNotion:
+1. Cosmo Cloud Setup
 
-# Random Home Page Background 🏠 
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/home3.png' />
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/home4.png' />
+    Sign Up/Log In: Create an account on Cosmo Cloud.
+    API Access: After logging in, get access to Cosmo Cloud's API key, secret, or other necessary credentials.
 
-# About Page
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/about.png' />
+2. Integrating Cosmo Cloud in the Backend (Node.js/Express)
+a. Install Required Packages
 
-# Contact Page
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/contact.png' />
+You might need an SDK or an API client to interact with Cosmo Cloud services from your backend. If Cosmo Cloud provides an NPM package or recommends using an API client, install it using:
 
-# Forgot passwornd
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/forgot%20pass.png' />
+bash
 
-# Dashboard
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/dashboard.png' />
+npm install cosmo-cloud-sdk  # Replace with the actual package name
 
-# Edit Profile
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/edit%20profile.png' />
+b. Configure Cosmo Cloud in Your Application
 
+In your backend code, set up Cosmo Cloud by configuring its API key and other required parameters. Add this configuration in a .env file or a configuration file to manage your keys securely.
 
-# Add Course
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/add%20course.png' />
+js
 
-# Edit Course
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/edit%20course.png' />
+require('dotenv').config();
+const CosmoCloud = require('cosmo-cloud-sdk');  // Replace with actual package
 
-# Course Details 1
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/course%20details1.png' />
+const cosmoCloud = new CosmoCloud({
+  apiKey: process.env.COSMO_CLOUD_API_KEY, // Stored securely in .env file
+  secret: process.env.COSMO_CLOUD_SECRET, 
+  cloudName: process.env.COSMO_CLOUD_NAME,
+});
 
-# Course Details 2
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/course%20details2.png' />
+c. Upload Files to Cosmo Cloud
 
-# Add Review
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/add%20review.png' />
+If your app needs to upload course content, images, or other media to the cloud, you’ll need to create a route to handle file uploads to Cosmo Cloud:
 
-# Cart1
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/cart1.png' />
+js
 
+const multer = require('multer'); // Middleware for handling file uploads
+const upload = multer({ dest: 'uploads/' });  // Temp storage
 
+app.post('/upload', upload.single('file'), async (req, res) => {
+  try {
+    const result = await cosmoCloud.upload(req.file.path);  // Upload to Cosmo Cloud
+    res.json({ url: result.url });  // Respond with the file URL
+  } catch (error) {
+    res.status(500).send('Upload failed');
+  }
+});
 
+3. Integrating Cosmo Cloud in the Frontend (React.js)
+a. Sending Files from Frontend to Backend
 
-# Enrolled Courses 1
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/enrolled%20courses1.png' />
+In your React frontend, you can use a file input to allow users to upload media files, and then send them to your backend to handle Cosmo Cloud uploads.
 
-# Enrolled Courses 2
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/enrolled%20courses2.png' />
+js
 
-# Instructor Data 1
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/instrctor%20data1.png' />
+import { useState } from 'react';
 
-# Instructor Data 2
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/instrctor%20data2.png' />
+function UploadComponent() {
+  const [file, setFile] = useState(null);
 
-# My Courses 1
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/myCourses1.png' />
+  const handleUpload = async () => {
+    const formData = new FormData();
+    formData.append('file', file);
 
-# My Courses 2
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/myCourses2.png' />
+    const response = await fetch('/upload', {
+      method: 'POST',
+      body: formData,
+    });
 
-# View Courses 1
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/view%20course1.png' />
+    const data = await response.json();
+    console.log('File uploaded successfully:', data.url);
+  };
 
-# View Courses 2
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/view%20course2.png' />
+  return (
+    <div>
+      <input type="file" onChange={(e) => setFile(e.target.files[0])} />
+      <button onClick={handleUpload}>Upload</button>
+    </div>
+  );
+}
 
+4. Using Media in Application
 
-# Delete Account
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/delete%20account.png' />
+Once files are uploaded to Cosmo Cloud, you can use the file URLs (returned after successful uploads) in your app, for example, embedding course videos or images.
 
-# Footer
-<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/footer.png' />
+js
 
+<img src={uploadedImageUrl} alt="Course Image" />
 
+5. Other Features
 
+Depending on Cosmo Cloud’s services, you can also:
 
+    Stream media (if they offer video hosting).
+    Manage and manipulate images (e.g., cropping, resizing).
+    Handle user authentication if Cosmo Cloud provides such services.
 
+6. Deploy the Application
 
+Once the application is ready, deploy it on platforms like Vercel (for frontend) or other hosting services for the backend. Ensure your environment variables for Cosmo Cloud are set correctly in the hosting environment.
 
-
-
-
-
-
-
- 
+By integrating Cosmo Cloud in your StudyNotion application, you can leverage its cloud capabilities to manage media, course content, and possibly other resources depending on the specific services Cosmo Cloud offers
